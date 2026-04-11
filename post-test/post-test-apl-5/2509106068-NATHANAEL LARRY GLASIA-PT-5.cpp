@@ -338,13 +338,13 @@ int main(){
 
                         case 6:
                         SelectionSortHargaAscending(data, JumlahData);
-                        cout << "Sort Nama Kamera berhasil\n";
+                        cout << "Sort Harga Kamera berhasil\n";
                         TampilkanDataKamera(data, JumlahData);
                         break;
 
                         case 7:
                         QuickSortID(data, 0, JumlahData - 1);
-                        cout << "Sort Harga Sewa berhasil\n";
+                        cout << "Sort ID Kamera berhasil\n";
                         TampilkanDataKamera(data, JumlahData);
                         break;
 
